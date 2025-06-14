@@ -5,7 +5,7 @@
 namespace Cdv.Domain.Migrations
 {
     /// <inheritdoc />
-    public partial class InitPeople : Migration
+    public partial class InitDb : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cdv.Domain.Migrations
 {
     [DbContext(typeof(PeopleDbContext))]
-    [Migration("20250510113840_InitPeople")]
-    partial class InitPeople
+    [Migration("20250614092105_InitDb")]
+    partial class InitDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

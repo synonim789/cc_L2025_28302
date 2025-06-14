@@ -15,7 +15,6 @@ builder.ConfigureFunctionsWebApplication();
 // builder.Services
 //     .AddApplicationInsightsTelemetryWorkerService()
 //     .ConfigureFunctionsApplicationInsights();
-
 string? cs = Environment.GetEnvironmentVariable("Db", EnvironmentVariableTarget.Process);
 
 builder.Services.AddDbContext<PeopleDbContext>(options => { options.UseSqlServer(cs); });

@@ -37,7 +37,7 @@ public class PeopleFn {
                 if (idExist)
                 {
                     var personId = req.Query.First(w => w.Key == "id").Value;
-                    int id = Int32.Parse(personId.First());
+                    int id = int.Parse(personId.First());
                     return new OkObjectResult(FindPerson(id));
                 }
 
