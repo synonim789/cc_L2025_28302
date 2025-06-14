@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CDV.PeopleAPI.Migrations
 {
     [DbContext(typeof(PeopleDb))]
-    [Migration("20250329130010_InitDb")]
+    [Migration("20250614083856_InitDb")]
     partial class InitDb
     {
         /// <inheritdoc />
